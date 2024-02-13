@@ -13,7 +13,6 @@ a {
 .buttons {
     display: flex;
     justify-content: center;
-/*     margin-left: 30%; */
 }
 
 .button_1{
@@ -25,7 +24,6 @@ a {
     z-index: 1;
     transition: all 0.5s;
     background: #7aed0e;
-/*     margin-left: 12%; */
 
     font-style: normal;
     justify-content: center;
