@@ -1,6 +1,6 @@
 function enlargeButton() {
     var image = document.querySelector('.cat');
-    image.src = "../sym.gif";
+    image.src = "sym.gif";
 
     var buttons = document.querySelectorAll('.buttons .button_1');
     buttons.forEach(function(button) {
@@ -24,7 +24,7 @@ function enlargeButton2() {
     var image = document.querySelector('.cat');
     var mainText = document.querySelector('.main_text_tariffs');
     
-    image.src = "../hap.gif";
+    image.src = "hap.gif";
     buttons.style.display = 'none';
     mainText.textContent = "УРАААААААААААААААА!!!!!!";
 }
