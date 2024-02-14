@@ -143,14 +143,14 @@ a {
         font-style: normal;
         font-weight: 700;
         font-size: 25px;
-        line-height: 80px;
+        line-height: 20px;
         text-align: center;
         
         color: #dd3333;
     }
     body{
-        height: 736px;
-        width: 414px;
+        height: 730px;
+        width: 4004px;
         background-color: #ffc0c0;
     }
     .button_1{
