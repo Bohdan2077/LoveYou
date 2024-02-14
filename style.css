@@ -12,7 +12,8 @@ a {
 
 .buttons {
     display: flex;
-    justify-content: center;
+     justify-content: center; 
+    /* margin-left: 30%; */
 }
 
 .button_1{
@@ -24,6 +25,7 @@ a {
     z-index: 1;
     transition: all 0.5s;
     background: #7aed0e;
+    /* margin-left: 12%; */
 
     font-style: normal;
     justify-content: center;
@@ -126,4 +128,66 @@ a {
 }
 .cat{
     height: 400px;
+}
+
+@media (max-width: 420px) {
+    .oll{
+        margin-left: 0px;
+    }
+    .cat{
+        height: 350px;
+        width: 350px;
+    }
+    .main_text_tariffs{
+        font-family: 'CA Saygon Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 80px;
+        text-align: center;
+        
+        color: #dd3333;
+    }
+    body{
+        height: 100%;
+        width: 414px;
+        background-color: #ffc0c0;
+    }
+    .button_1{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 150px;
+        height: 60px;
+        z-index: 1;
+        transition: all 0.5s;
+        background: #7aed0e;
+        /* margin-left: 12%; */
+    
+        font-style: normal;
+        justify-content: center;
+        
+        border: 1px solid #7aed0e;
+        border-radius: 10px;
+    
+    }
+    
+    
+    .button_2{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 150px;
+        height: 60px;
+        z-index: 1;
+        transition: all 0.5s;
+        background: #ff6363;
+    
+    
+        font-style: normal;
+        justify-content: center;
+        
+        border: 1px solid #ff6363;
+        border-radius: 10px;
+    }
 }
